@@ -1,0 +1,2 @@
+# LunchBot
+XMPP bot
