@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Init script
+  
+case "$1" in
+        start)
+                /usr/bin/env python /local/sbin/jabber-bot-employee.py > /var/log/lunchbot.log 2>&1 &
+        ;;
+        stop)
+        ;;
+esac
+
+exit 0
+
